@@ -9,11 +9,11 @@ console.log(c2f(0))
 let f2c = (f) =>{
     let c = Math.ceil(((f-32)) * 5/9)
     if(c<0) 
-    {console.log(`Temperature is ${c}c, Very low`)}
+    {console.log(`Temperature is Very low`)}
     else if(c>=0 && c<=22) 
-    {console.log(`Temperature is ${c}c, Noramal`)}
+    {console.log(`Temperature is  Noramal`)}
     else 
-    {console.log(`Temperature is ${c}c, Very high`)}
+    {console.log(`Temperature is  Very high`)}
 }
 
 f2c(43)
