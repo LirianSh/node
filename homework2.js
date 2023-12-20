@@ -80,5 +80,5 @@ console.log(studenti);
 
 //? 8. Da se kreira nov array kade shto studentite od Ohrid, Skopje i Kumanovo kade shto ocenkite so prosek se za 1 pogolem (Dinamichki)
 
-const studenti2 = studenti.filter(student => student.grad == 'Ohrid' || student.grad == 'Skopje' || student.grad == 'Kumanovo').map(student => ({ ime: student.ime, prosek: student.prosek + 1, grad: student.grad}));
+const studenti2 = studenti.filter(student => student.grad == 'Skopje' || student.grad == 'Ohrid' || student.grad == 'Kumanovo').map(student => ({ ime: student.ime, prosek: student.prosek + 1, grad: student.grad}))
 console.log(studenti2);
